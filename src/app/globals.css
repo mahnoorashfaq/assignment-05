@@ -330,6 +330,7 @@ header .logo {
   }
   #heading-para{
     font-size: 20px;
+    padding-top: 18px;
   }
   .image {
     width: 270px;
@@ -770,5 +771,23 @@ header .logo {
   }
   .inner-blog p{
     font-size: 9.3px;
+  }
+}
+@media only screen and (max-width:284px){
+  .outer-hero{
+    height: 250px;
+  }
+  #heading-para{
+    font-size: 7px; 
+  }
+  #heading-hero{
+    font-size: 19px;
+  }
+  .cv {
+    height: 18px;
+    width: 70px;
+    font-size: 7px;
+    font-weight: 350;
+    border-radius: 5px;
   }
 }
